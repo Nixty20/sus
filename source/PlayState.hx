@@ -920,7 +920,7 @@ class PlayState extends MusicBeatState
 		}
 		
 		creditTxt = new FlxText(876, 648, 348);
-        creditTxt.text = "PORTED BY/nTHEORDA";
+        creditTxt.text = "PORTED BY JOÃO OPT";
         creditTxt.setFormat(Paths.font("vcr.ttf"), 30, FlxColor.WHITE, RIGHT, FlxTextBorderStyle.OUTLINE,FlxColor.BLACK);
         creditTxt.scrollFactor.set();
         add(creditTxt);
